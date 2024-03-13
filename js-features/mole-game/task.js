@@ -1,7 +1,7 @@
 const lost = document.getElementById("lost");
 const dead = document.getElementById("dead");   
 
-for (let i = 1; i < 9; i++){
+for (let i = 1; i < 10; i++){
     let hole = document.getElementById(`hole${i}`)
     hole.onclick = () => {
         if (hole.className.includes("hole_has-mole")) {
