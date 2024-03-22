@@ -1,5 +1,4 @@
 const fontSize = Array.from(document.getElementsByClassName("font-size"));
-const color = Array.from(document.getElementsByClassName("color"));
 const book = document.querySelector(".book");
 
 let activeIndex = 1;
